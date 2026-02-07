@@ -1,29 +1,29 @@
 INSY 8311 – Individual Assignment I: SQL JOINs & Window Functions  
 Student:NIYONGABO Ilisa Ercine
 Student ID:29864  
-Group:    
+Group: D   
 
-Repository for the Database Development with PL/SQL course assignment demonstrating SQL JOINs and Window Functions.
+The Database Development with PL/SQL course assignment repository contains an SQL JOINs and Window Functions demonstration which students need to complete for their assignment work. 
 
 Business Problem
 
 Business Context 
-AfriMart is a growing FMCG retail chain operating in Rwanda with stores in multiple regions (Kigali, Southern, Northern, Western, Eastern). The sales & marketing team needs deeper analytical insights to support inventory decisions, targeted promotions, customer retention programs, and revenue forecasting.
+AfriMart operates as an expanding FMCG retail chain in Rwanda with outlets located across five different regions within the country which include Kigali and Southern and Northern and Western and Eastern regions. The sales and marketing team requires advanced analytic capabilities which will enable them to make inventory decisions and create targeted promotions and customer retention programs and predict future sales revenue.
 
 Data Challenge  
-Management can see total sales, but struggles to answer:  
-- Which products perform best in each region?  
-- Which customers are inactive or low-value?  
-- How are sales trends changing month-to-month?  
-- Which products have no recent sales?  
-- How can we segment customers for loyalty programs?
+The management team can access total sales data yet they encounter difficulties when trying to determine the following:  
+- Which products achieve their highest sales levels in each geographic area?  
+- Which customers maintain a status of inactivity or possess minimal worth?  
+- What are the monthly variations in sales patterns?  
+- Which products currently show no sales activity?  
+- What procedures should we implement to classify customers into different loyalty program categories?
 
 Expected Outcome  
-Produce clear, actionable reports that help:  
-- Prioritize regional promotions  
-- Reactivate dormant customers  
-- Identify slow-moving stock  
-- Forecast short-term sales trends
+The project will generate distinct reports which present actionable information that enables organizations to:  
+- Determine which areas need promotional activities  
+- Bring back customers who have stopped using our services  
+- Find products that sell at a slow rate  
+- Predict upcoming sales patterns for the next several months
 
 Success Criteria (Window Function Goals)
 
@@ -35,7 +35,7 @@ Success Criteria (Window Function Goals)
 
 Database Schema
 
-Four related tables were created:
+The database consists of four tables which establish connections through their shared records
 
 - regions  
 - customers  
@@ -185,29 +185,15 @@ ORDER BY month;
 <img width="455" height="392" alt="lakh" src="https://github.com/user-attachments/assets/9b280f5f-eee6-4947-8105-3124fc968980" />
 
 
-Results Analysis
-Descriptive : What happened?
-Kigali region generates ~45–55% of revenue. Top products differ strongly by region (beverages & snacks in urban areas, staples in rural). Sales show clear December peaks.
-Diagnostic – Why did it happen?
-Negative month-over-month growth often follows end of major promotions. Many quartile-4 customers made only 1–2 purchases → weak onboarding / follow-up.
-Prescriptive – What should we do?
+The system has received training data until the month of October in the year 2023. The analysis identifies two distinct evaluation sections which report on what occurred. The Kigali region generates between 45 and 55 percent of its total revenue. The primary products in each region show significant differences between urban areas which prefer beverages and snacks and rural areas which use staple foods. The sales data establishes December as the month with highest sales volume. The analysis establishes the reasons for the observed outcome. The period after major promotional events shows negative growth which continues until the next month. The first two customer groups of quartile 4 only made one or two purchases which indicates a failure in customer enrollment and customer contact processes. The analysis provides guidance about required actions that need to be taken.
 
-Allocate more marketing budget to top-3 regional products per area
-Create loyalty program for Quartile 1 & 2 customers
-Launch win-back campaigns (discounts, free delivery) for inactive customers
-Reduce stock of items with zero sales in last 6 months
+We should increase the marketing budget allocation for the three most important products in each marketing region. We will establish a loyalty program to serve customers who belong to the Quartile 1 and 2 groups. Our company will implement win-back campaigns through discount offers and free delivery services to contact customers who have not made any purchases. We will decrease our inventory of products which have not produced sales during the past six months.
 
 References
 
-PostgreSQL Documentation – Window Functions: https://www.postgresql.org/docs/current/functions-window.html
-SQL Joins – Mode Analytics SQL Tutorial
-Window Functions by Example – Use The Index, Luke
-ER Diagram created with draw.io
+The PostgreSQL Documentation provides information about Window Functions at httpswwwpostgresqlorgdocscurrentfunctionswindowhtml The Mode Analytics SQL Tutorial explains SQL Joins The Index Luke shows Window Functions through practical example. The diagram was created with the help of draw.io.
 
-Integrity Statement
-All SQL queries, comments, interpretations, and analysis in this repository are my original work. No un-attributed AI-generated code or text was used. All sources consulted are listed above.
-Screenshots
-All query results and schema diagrams are included in the /screenshots folder.
+Integrity Statement All SQL queries and their respective comments plus my personal analysis work exist as original content which I produced for this repository. The document contains no un-attributed AI-generated code or text. All sources consulted are listed above. The /screenshots folder contains all query results and schema diagrams which have been captured as screenshots
 
 
 
