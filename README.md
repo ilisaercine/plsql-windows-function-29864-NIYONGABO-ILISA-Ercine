@@ -191,7 +191,7 @@ We should increase the marketing budget allocation for the three most important 
 
 References
 
-The PostgreSQL Documentation provides information about Window Functions at httpswwwpostgresqlorgdocscurrentfunctionswindowhtml The Mode Analytics SQL Tutorial explains SQL Joins The Index Luke shows Window Functions through practical example. The diagram was created with the help of draw.io.
+The PostgreSQL Documentation provides information about Window Functions at [httpswwwpostgresqlorgdocscurrentfunctionswindowhtm](https://www.postgresql.org/docs/current/functions-window.html)l The Mode Analytics SQL Tutorial explains SQL Joins The Index Luke shows Window Functions through practical example. The diagram was created with the help of draw.io.
 
 Integrity Statement All SQL queries and their respective comments plus my personal analysis work exist as original content which I produced for this repository. The document contains no un-attributed AI-generated code or text. All sources consulted are listed above. The /screenshots folder contains all query results and schema diagrams which have been captured as screenshots
 
